@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Quando você pensa no seu uso de redes sociais, qual sentimento predomina?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Curiosidade e interese por novidades",
+                afirmacao: "Você encara as redes sociais como uma fonte de descobertas, onde cada novidade é uma oportunidade de aprender e se atualizar. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Desejo de se manter próximo das pessoas",
+                afirmacao: "Para você, o maior valor está na conexão emocional, usando a tecnologia como ponte para manter laços e proximidade"
             }
         ]
     },
@@ -111,3 +111,4 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
