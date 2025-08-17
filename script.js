@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é o seu jeito preferido e interagir online?",
+        enunciado: "Qual é o seu jeito preferido de interagir online?",
         alternativas: [
             {
                 texto: "Compartilhando informações e conteúdo",
@@ -111,6 +111,7 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
 
 
 
