@@ -35,38 +35,38 @@ const perguntas = [
         enunciado: "O que mais chama sua atenção no feed?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Notícias, tendencias e atualizações.",
+                afirmacao: "Seu olhar é atraido por novidades e tendências, o que te mantém atento(a) ao que acontece no mundo."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Fotos e histórias de amigos e familiares.",
+                afirmacao: "O que mais te encanta são os registros e histórias pessoais, que aproximam você do dia a dia das pessoas que gosta."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Quando algo negativo aparece como você reage?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Procura analisar com calma antes de interagir.",
+                afirmacao: "Mesmo diante de temas polêmicos, você prefere agir com cautela e analisar antes de opinar."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Prefere mudar de assunto e buscar conteúdos positivos.",
+                afirmacao: "Sua preferência é direcionar a atenção para coisas positivas, evitando se prender a discussões negativas."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "O que voce mais gostaria de melhorar no seu uso de redes sociais? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Filtrar melhor o que consome para evitar excesso de informação.",
+                afirmacao: "Seu foco para o futuro é filtrar o conteúdo de forma mais consciente, consumindo apenas o que agrega valor."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Organizar o tempo para equilibrar com a vida offline .",
+                afirmacao: "Voc~e busca organizar melhor o tempo de uso, equilibrando a vida digital com momentos offline. "
             }
         ]
     },
@@ -111,5 +111,6 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
 
 
