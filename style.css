@@ -17,7 +17,7 @@ body {
 }
 
 .caixa-principal{
-   background-image: url('background redes.avif'); 
+   background-image: url(background redes.avif); 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
@@ -45,5 +45,6 @@ button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
+
 
 
