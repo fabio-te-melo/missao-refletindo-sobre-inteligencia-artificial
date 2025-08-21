@@ -1,10 +1,9 @@
 :root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20;
+    --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
-
 }
 
 body {
@@ -16,8 +15,8 @@ body {
     min-height: 100vh;
 }
 
-.caixa-principal{
-   background-image: url(background redes.avif); 
+.caixa-principal {
+    background-image: url('background redes.avif'); /* Corrigir a sintaxe do caminho da imagem */
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
@@ -26,9 +25,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    width: 100%; /* Garante que a caixa principal ocupe 100% da largura da tela */
+    padding: 20px; /* Adicionando algum espaçamento interno */
 }
 
-h1{
+h1 {
     color: var(--cor-destaque);
 }
 
@@ -41,10 +42,7 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover{
+button:hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
-
-
-
