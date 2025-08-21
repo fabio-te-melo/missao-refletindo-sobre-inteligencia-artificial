@@ -7,16 +7,7 @@
 }
 
 body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.caixa-principal {
-    background-image: url('background redes.avif'); /* Corrigir a sintaxe do caminho da imagem */
+     background-image: url('background redes.avif'); /* Corrigir a sintaxe do caminho da imagem */
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
@@ -27,6 +18,14 @@ body {
     min-height: 100vh;
     width: 100%; /* Garante que a caixa principal ocupe 100% da largura da tela */
     padding: 20px; /* Adicionando algum espaçamento interno */
+}
+
+.caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
@@ -46,3 +45,4 @@ button:hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
+
